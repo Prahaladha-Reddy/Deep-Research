@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 import time
 
-API_URL = "http://127.0.0.1:8000/generate_report/"
+API_URL = "https://deep-research-gxlm.onrender.com/generate_report/"
 
 st.title("📑 AI Report Generator")
 st.subheader("Enter a topic and generate a detailed AI-generated markdown report.")
